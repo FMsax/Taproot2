@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="index.js"></script>
+  <title>Taproot witches</title>
+  <link rel="icon" href="main image.jpg" type="image/x-icon">
+</head>
+<body>
+  <div id="main">
+    <h1>Witches hunt</h1>
+    <p id="ins"> Game starts by just Tap on box<br><br>First Player starts as <b>Player X </b>And Second Player as <b>Player 0</b> </p>
+    <br><br>
+    <div class="game-container">
+      <div class="ui">
+        <div class="row">
+          <div id="b1" class="cell" onclick="myfunc_3(); myfunc();"></div>
+          <div id="b2" class="cell" onclick="myfunc_4(); myfunc();"></div>
+          <div id="b3" class="cell" onclick="myfunc_5(); myfunc();"></div>
+        </div>
+        <div class="row">
+          <div id="b4" class="cell" onclick="myfunc_6(); myfunc();"></div>
+          <div id="b5" class="cell" onclick="myfunc_7(); myfunc();"></div>
+          <div id="b6" class="cell" onclick="myfunc_8(); myfunc();"></div>
+        </div>
+        <div class="row">
+          <div id="b7" class="cell" onclick="myfunc_9(); myfunc();"></div>
+          <div id="b8" class="cell" onclick="myfunc_10();myfunc();"></div>
+          <div id="b9" class="cell" onclick="myfunc_11();myfunc();"></div>
+        </div>
+      </div>
+      <div class="picture-selection">
+        <h2>Choose your pictures:</h2>
+        <div class="picture-options">
+          <img src="witch1.png" alt="Picture 1" onclick="selectPicture(this)">
+          <img src="witch2.png" alt="Picture 2" onclick="selectPicture(this)">
+					<img src="witch3.png" alt="Picture 3" onclick="selectPicture(this)">
+					<img src="witch4.png" alt="Picture 4" onclick="selectPicture(this)">
+					<img src="witch5.png" alt="Picture 5" onclick="selectPicture(this)">
+					<img src="witch6.png" alt="Picture 6" onclick="selectPicture(this)">
+					<img src="main image.jpg" alt="Picture 7" onclick="selectPicture(this)">
+          <!-- Add more picture options here -->
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <button id="but" onclick="myfunc_2()"> RESET </button>
+    <br><br>
+    <p id="print"></p>
+  </div>
+</body>
+</html>
